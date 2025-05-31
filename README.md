@@ -1,3 +1,27 @@
+BRIEF TESTING GUIDANCE--
+
+1. Input Field Testing
+Start by checking the input field. Before typing anything, it should display a placeholder text like “Enter your task here.” This lets users know what the field is meant for. As soon as the user starts typing, the placeholder should disappear and the typed text should appear inside the input box. If the user tries to click the “Save” button without entering any text, the app should ideally either show a validation message, an alert, or simply ignore the request to add a task.
+
+2. Adding Tasks
+To test the task-adding feature, type a valid task into the input field and click the “Save” or “Add” button. The task should immediately appear in the task list below the input. Repeat the process for multiple tasks (e.g., 2–3 tasks) and ensure they appear stacked one after another vertically, without overlapping. This confirms that the layout and spacing between task items are working correctly.
+
+3. Deleting Tasks
+For deleting tasks, each task item should have a "Delete" button. When clicked, the corresponding task should be removed from the task list. Try deleting individual tasks and observe the behavior. Once all tasks are deleted, the list should be empty and clean, without leaving any layout glitches or empty spaces.
+
+4. Completing Tasks
+To test the completion feature, click on the “Completed” button next to any task. The visual style of the task should change—for example, applying a strikethrough effect or changing the background color—to indicate that the task is completed. If your app allows toggling the completed state, try clicking the same button again to mark it as incomplete and ensure the style resets correctly.
+
+5. UI Responsiveness
+Lastly, test the layout’s responsiveness. Resize your browser window to simulate smaller screen sizes. The layout should adapt smoothly without breaking or causing elements to overlap. For a more accurate test, open the app on a mobile phone or use the mobile view in Chrome DevTools. Check that all UI elements—including the input field and buttons—are clearly visible, accessible, and easy to interact with on a small screen.
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +92,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
