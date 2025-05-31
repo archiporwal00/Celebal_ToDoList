@@ -1,0 +1,54 @@
+.todo-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    gap: 15px; /* Space between tasks */
+    padding: 0;
+    margin-top: 20px;
+}
+
+.todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    width: 600px;
+    font-size: x-large;
+    color: rgb(0, 0, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    border-radius: 45px;
+    background-color: white;
+}
+
+.todo-item .btn-div{
+    display: flex;
+    gap: 10px;
+    /* position: absolute; */
+    justify-content: left;
+    align-items: left;
+    
+}
+
+.btn-div .delete-btn{
+    background-color: rgb(223, 25, 25);
+    padding: 5px;
+    border: none;
+    border-radius: 25px;
+    
+    height: 40px;
+    color: aliceblue;
+    font-size: large;
+    width: 90px;
+}
+
+.btn-div .complete-btn{
+    background-color: rgb(49, 235, 7);
+    padding: 5px;
+    border: none;
+    border-radius: 25px;
+    width: 110px;
+    height: 40px;
+    color: aliceblue;
+    font-size: large;
+}
